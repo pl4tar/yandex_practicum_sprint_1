@@ -272,3 +272,62 @@ p, div, a, button, img{
     text-decoration: none;
 }
 
+.footer{
+    color: white;
+    background-color: #1f1f1f;
+    padding: 60px 0 40px 0;
+    display: flex;
+    justify-content: center;
+    min-height: 350px;
+}
+
+.columns{
+    min-height: 100%;
+    min-width: 90%;
+    flex-basis: 711px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.columns__copyright{
+    min-width: 50%;
+}
+
+.columns__copyright{
+    position: relative;
+}
+
+.columns__copyright-text{
+    position: absolute;
+    bottom: 18px;
+    left: 0;
+    line-height: 25px;
+    font-size: 18px;
+    font-weight: normal;
+}
+
+.column-heading-text{
+    line-height: 30px;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+
+.columns__info{
+}
+
+.columns__social{
+}
+
+.column-links{
+    margin: 20px 0 16px 0;
+    display: flex;
+    flex-flow: column wrap;
+}
+.column-links-text{
+    text-decoration: none;
+    color: white;
+    line-height: 30px;
+    font-size: 18px;
+    font-weight: normal;
+}
